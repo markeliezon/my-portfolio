@@ -28,28 +28,18 @@ export default function App() {
 
   // SCROLL LOGIC
   useEffect(() => {
-    const handleScroll = () => {
-      const currentScrollY = window.scrollY;
-      const docHeight =
-        document.documentElement.scrollHeight - window.innerHeight;
+  const handleScroll = () => {
+    const currentScrollY = window.scrollY;
 
-      if (currentScrollY > lastScrollY.current) {
-        setShowNav(false);
-      } else {
-        setShowNav(true);
-      }
+    const heroHeight = window.innerHeight * 0.7;
 
-      lastScrollY.current = currentScrollY;
+    // show profile ONLY after hero section
+    setShowProfileInNav(currentScrollY > heroHeight);
+  };
 
-      const heroHeight = window.innerHeight * 0.7;
-      setShowProfileInNav(currentScrollY > heroHeight);
-
-      setShowTopBtn(currentScrollY > docHeight - 300);
-    };
-
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
+  window.addEventListener('scroll', handleScroll);
+  return () => window.removeEventListener('scroll', handleScroll);
+}, []);
 
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -98,7 +88,7 @@ export default function App() {
      }}>
 
       {/* NAVBAR */}
-      <nav className={`fixed top-0 left-0 w-full z-50 transition-transform duration-300 bg-[#0B1120]/70 backdrop-blur-xl border-b border-white/10 ${showNav ? 'translate-y-0' : '-translate-y-full'}`}>
+      <nav className="fixed top-0 left-0 w-full z-50 bg-[#0B1120]/70 backdrop-blur-xl border-b border-white/10">
         <div className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4">
 
           {/* LEFT */}
