@@ -305,15 +305,19 @@ export default function App() {
           </div>
 
           {/* FORM */}
-          <form className="max-w-2xl mx-auto grid gap-4">
+         <form
+            className="max-w-2xl mx-auto grid gap-4"
+            action="https://formspree.io/f/xlgzzplo"
+            method="POST"
+          >
             <div className="grid md:grid-cols-2 gap-4">
-              <input className="p-4 rounded-2xl bg-black/30 border border-white/10" placeholder="Your Name" />
-              <input className="p-4 rounded-2xl bg-black/30 border border-white/10" placeholder="Your Email" />
+              <input name="name" className="p-4 rounded-2xl bg-black/30 border border-white/10" placeholder="Your Name" />
+              <input name="email" className="p-4 rounded-2xl bg-black/30 border border-white/10" placeholder="Your Email" />
             </div>
 
-            <input className="p-4 rounded-2xl bg-black/30 border border-white/10" placeholder="Subject" />
+            <input name="subject" className="p-4 rounded-2xl bg-black/30 border border-white/10" placeholder="Subject" />
 
-            <textarea rows="5" className="p-4 rounded-2xl bg-black/30 border border-white/10 resize-none" placeholder="Message" />
+            <textarea name="message" rows="5" className="p-4 rounded-2xl bg-black/30 border border-white/10 resize-none" placeholder="Message" />
 
             <button className="px-8 py-4 rounded-2xl bg-gradient-to-r from-pink-500 to-red-500 hover:scale-105 transition">
               Send Message
