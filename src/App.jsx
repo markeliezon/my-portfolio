@@ -1,5 +1,8 @@
 import { useEffect, useRef, useState } from 'react';
 import Lenis from '@studio-freight/lenis';
+import joyno from './assets/joyno.png'
+import casa1 from './assets/casa1.png'
+import unnamed from './assets/unnamed.jpg'
 
 export default function App() {
   const [showNav, setShowNav] = useState(true);
@@ -71,26 +74,26 @@ export default function App() {
     'CRM Technical Support'
   ];
 
-  const projects = [
-    {
-      title: 'Get Wrecked Beach & Sports Bar',
-      description: 'Business website with responsive design and optimization.',
-      link: 'https://getwreckedbeachandsportsbar.com/',
-      image: 'src/assets/getwrecked.png',
-    },
-    {
-      title: 'Joyno Media Inc',
-      description: 'Modern website experience with performance optimization.',
-      link: 'https://joynomedia.com/',
-      image: 'src/assets/joyno.png',
-    },
-    {
-      title: 'Casa Amorosa',
-      description: 'Professional business website with SEO enhancements.',
-      link: 'https://casaamorosagroupllc.com/',
-      image: 'src/assets/casa1.png',
-    },
-  ];
+ const projects = [
+  {
+    title: 'Get Wrecked Beach & Sports Bar',
+    description: 'Business website with responsive design and optimization.',
+    link: 'https://getwreckedbeachandsportsbar.com/',
+    image: getwrecked,
+  },
+  {
+    title: 'Joyno Media Inc',
+    description: 'Modern website experience with performance optimization.',
+    link: 'https://joynomedia.com/',
+    image: joyno,
+  },
+  {
+    title: 'Casa Amorosa',
+    description: 'Professional business website with SEO enhancements.',
+    link: 'https://casaamorosagroupllc.com/',
+    image: casa1,
+  },
+];
 
   return (
     <div className="min-h-screen bg-[#0B1120] text-white overflow-hidden" style={{
