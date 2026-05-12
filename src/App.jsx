@@ -318,6 +318,7 @@ export default function App() {
             <input name="subject" className="p-4 rounded-2xl bg-black/30 border border-white/10" placeholder="Subject" />
 
             <textarea name="message" rows="5" className="p-4 rounded-2xl bg-black/30 border border-white/10 resize-none" placeholder="Message" />
+            <input type="text" name="_gotcha" style={{ display: 'none' }} />
 
             <button className="px-8 py-4 rounded-2xl bg-gradient-to-r from-pink-500 to-red-500 hover:scale-105 transition">
               Send Message
