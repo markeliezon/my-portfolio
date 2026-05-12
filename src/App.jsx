@@ -1,8 +1,5 @@
 import { useEffect, useRef, useState } from 'react';
 import Lenis from '@studio-freight/lenis';
-import joyno from './assets/joyno.png'
-import casa1 from './assets/casa1.png'
-import unnamed from './assets/unnamed.jpg'
 
 export default function App() {
   const [showNav, setShowNav] = useState(true);
@@ -79,19 +76,19 @@ export default function App() {
     title: 'Get Wrecked Beach & Sports Bar',
     description: 'Business website with responsive design and optimization.',
     link: 'https://getwreckedbeachandsportsbar.com/',
-    image: getwrecked,
+   image: '/my-portfolio/getwrecked.png',
   },
   {
     title: 'Joyno Media Inc',
     description: 'Modern website experience with performance optimization.',
     link: 'https://joynomedia.com/',
-    image: joyno,
+    image: '/my-portfolio/joyno.png',
   },
   {
     title: 'Casa Amorosa',
     description: 'Professional business website with SEO enhancements.',
     link: 'https://casaamorosagroupllc.com/',
-    image: casa1,
+    image: '/my-portfolio/casa1.png',
   },
 ];
 
@@ -197,7 +194,7 @@ export default function App() {
           {/* PROFILE */}
           <div className="text-center lg:text-right space-y-4 mx-auto order-1 lg:order-2">
             <img
-              src="src/assets/unnamed.jpg"
+              src="/my-portfolio/unnamed.jpg"
               className="w-[350px] h-[350px] md:w-[300px] md:h-[300px] lg:w-[350px] lg:h-[350px] rounded-full lg:ml-auto border-4 border-white/10"
             />
 
