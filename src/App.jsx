@@ -104,7 +104,7 @@ export default function App() {
           {/* LEFT */}
           <div className="flex items-center gap-4">
             <img
-              src="/my-portfolio/unnamed.jpg"
+              src="/my-portfolio/unnamed-DvyOHUa8.jpg"
               className={`rounded-full border border-white/10 transition-all duration-300 ${showProfileInNav ? 'w-12 h-12 opacity-100' : 'w-0 h-0 opacity-0'
                 }`}
             />
