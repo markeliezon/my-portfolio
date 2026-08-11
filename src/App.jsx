@@ -201,17 +201,22 @@ export default function App() {
         <h3 className="text-1xl font-bold mb-3">
     More than just a developer.
   </h3>
-         <p className="text-gray-300 text-lg leading-relaxed max-w-4xl space-y-4">
-    I am a BSIT graduate and a web developer focused on building clean, responsive,
-    and high-performing digital experiences. I specialize in frontend development,
-    WordPress customization, SEO optimization, and technical support.
+        <p className="text-gray-300 text-lg leading-relaxed max-w-4xl space-y-4">
+    I am a BSIT graduate and Web Developer with hands-on experience in
+    building and maintaining responsive websites. My experience includes
+    frontend development, WordPress customization, on-page SEO, and
+    technical support.
     <br /><br />
-    My experience includes developing business websites, improving page speed,
-    optimizing search engine visibility, and maintaining production websites for real clients.
-    I also handle troubleshooting, UI improvements, and system support when needed.
+    I have developed and maintained business and marketing websites for
+    real clients, working with WordPress, Elementor, HTML, CSS, and
+    JavaScript. I also have experience implementing on-page SEO
+    improvements, optimizing website content and structure, and handling
+    website updates and troubleshooting.
     <br /><br />
-    I enjoy turning complex problems into simple, user-friendly solutions and
-    continuously improving both design and performance to deliver better user experiences.
+    I enjoy solving technical problems, improving website usability, and
+    turning ideas into clean, practical, and user-friendly digital
+    experiences. I am also continuously learning and developing my skills
+    in web development, SEO, and website management.
   </p>
       </section>
 
