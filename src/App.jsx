@@ -64,19 +64,19 @@ export default function App() {
  const projects = [
   {
     title: 'Get Wrecked Beach & Sports Bar',
-    description: 'Business website with responsive design and optimization.',
+    description: 'Responsive WordPress business website with custom page design, content optimization, and mobile-friendly layouts.',
     link: 'https://getwreckedbeachandsportsbar.com/',
    image: '/my-portfolio/getwrecked.png',
   },
   {
     title: 'Joyno Media Inc',
-    description: 'Modern website experience with performance optimization.',
+    description: 'WordPress marketing website developed and maintained with Elementor, custom styling, responsive layouts, and ongoing website improvements.',
     link: 'https://joynomedia.com/',
     image: '/my-portfolio/joyno.png',
   },
   {
     title: 'Casa Amorosa',
-    description: 'Professional business website with SEO enhancements.',
+    description: 'Business website with on-page SEO improvements, content structure optimization, responsive design, and user-focused page layouts.',
     link: 'https://casaamorosagroupllc.com/',
     image: '/my-portfolio/casa1.png',
   },
@@ -246,7 +246,7 @@ export default function App() {
     </h3>
 
     <p className="text-gray-400 max-w-xl">
-      A collection of websites and projects I’ve built focusing on performance, design, and user experience.
+      A collection of websites and projects showcasing my experience in WordPress development, on-page SEO, responsive design, and website management.
     </p>
   </div>
 
